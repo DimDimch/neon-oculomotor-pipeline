@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+
+# Project-specific
+neon_zips/
+neon_workdir/
+neon_outputs/
+tables/
+*.csv
+!figures/*.csv
+
+# Generated figures (kept under figures/ for reproducibility, but ignored elsewhere)
+*.png
+!figures/*.png
